@@ -1,5 +1,6 @@
 node_modules
-.yarn
-.cache
-.vscode
-build
+/.cache
+/build
+/public/build
+.env
+/.vscode
