@@ -1,14 +1,15 @@
 {
-  "name": "remix-template-fly",
-  "private": true,
-  "description": "",
-  "license": "",
-  "sideEffects": false,
+  "name": "cuan-web",
+  "version": "1.0.0",
+  "description": "Could use a name remix website",
+  "main": "index.js",
+  "repository": "https://github.com/Could-use-a-name/cuan-web.git",
+  "author": "jezpoz <jesfor94@gmail.com>",
+  "license": "MIT",
+  "private": false,
   "scripts": {
     "build": "remix build",
-    "deploy": "fly deploy --remote-only",
-    "dev": "remix dev",
-    "start": "remix-serve build"
+    "dev": "remix dev"
   },
   "dependencies": {
     "@remix-run/node": "^1.5.1",
