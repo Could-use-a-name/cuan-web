@@ -51,11 +51,11 @@ type LoaderData = {
   posts: Post[];
 }
 
-export default function Index() {
+export default function Posts() {
   const { posts } = useLoaderData<LoaderData>();
   return (
     <main>
-      <h1>Home</h1>
+      <h1>Posts</h1>
       {posts.map((post: any, index: number) => (
         <a key={index} href={`/posts/${post.slug}`}>
           <h2>{post.title}</h2>
